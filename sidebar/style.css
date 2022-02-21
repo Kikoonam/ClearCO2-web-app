@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+  html, body {
+   
+    color: #1E255E;
+  }
+
+  .loginLib2 {
+    color: #171717;
+    font-weight: bold;
+    font-size: 32px;
+    font-style: inherit;
+    line-height: 34px;
+    line-height: 80%;
+    
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .loginLib1{
+font-family: inherit;
+font-style: medium;
+font-size: 14px;
+line-height: 34px;
+line-height: 201%;
+text-align: center;
+vertical-align: top;
+  }
+  .background-image{
+    height: 790px;
+    width: 412px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    opacity:0.25;
+    
+  }
+
+.loginLabel {
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 34px;
+margin-top: 10px;
+
+
+  }
+
+ .header{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    /* identical to box height, or 106% */
+    
+    text-align: center;
+    letter-spacing: 1px;
+ }
+ .header2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 34px;
+    color: #767676;
+    
+ }
+  .btn-primary-rounded, .btn-primary-rounded-price {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 100px;
+    width: 200px;
+    height: 60px;
+  }
+  
+  .btn-outline-primary {
+    color: #466539;
+    border-color: #466539;
+
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #466539;
+
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .btn {
+    box-shadow: none !important;
+    background-color: #466539;
+    color: white;
+  }
+
+  .loginPlacehold {
+    font-size: 16px;
+    line-height: 24px;
+    color: #D6D7E3;
+  }
+  
+  .loginput {
+    padding: 5px 16px;
+    background: #EFF0F6;
+    border-radius: 8px;
+    border-radius: 6px;
+    width: 338px;
+    height: 44px;
+  }
+  
+  .loginLib4 {
+    color: #7798D9;
+    
+    font-weight: 500;
+font-size: 14px;
+line-height: 34px;
+    margin-top:15px;
+
+  }
+  
+  .loginLib5 {
+    font-size: 14px;
+line-height: 24px;
+
+color: #767676;
+  }
+
+.loginLib6{
+    color: #466539;
+    font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+  }
+
+.bform {
+background: #FFFFFF;
+box-shadow: 0px 5px 10px rgba(160, 163, 189, 0.1);
+border-radius: 10px;
+margin-top: 21px;
+  }
+
+.cform{
+   
+    margin-left: 45px;
+    width: 338px;
+    height: 328px;
+   
+}
+.logo{
+width: 136px;
+height: 55px;
+
+
+}
+.loginPosition{
+
+ width: 418px;
+ height: 408px;
+
+
+
+}
+.loginBig{
+    width:418px ;
+    height: 600px;
+    margin-top: 111px;
+}
+
+.logo-position{
+    margin-left: 350px;
+    margin-top:700px;
+}
+
+
