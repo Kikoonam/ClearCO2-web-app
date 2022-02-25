@@ -28,12 +28,9 @@ body {
   vertical-align: top;
 }
 .background-image {
-  height: 790px;
-  width: 412px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  opacity: 0.25;
+  height: 100%;
+  width: 32vw;
+  margin-left: -1vw;
 }
 
 .loginLabel {
