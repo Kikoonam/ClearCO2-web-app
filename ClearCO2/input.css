@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  color: #1e255e;
+}
+
+.loginLib2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  /* Title */
+
+  color: #171717;
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+
+.loginLabel {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  margin-top: 10px;
+}
+
+.firstTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #313131;
+}
+.secTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #313131;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn {
+  box-shadow: none !important;
+  background-color: #466539;
+  color: white;
+}
+
+.loginput {
+  padding: 5px 16px;
+  background: #eff0f6;
+  border-radius: 6px;
+  width: 950px;
+  height: 52px;
+}
+.table {
+  /* display: flex; */
+  padding: 5px 16px;
+  background: #466539;
+  color: white;
+  border-radius: 6px;
+  width: 100%;
+  height: 52px;
+}
+.imgButton {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "museo-sans-fontspring", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  margin-left: 8vw;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #eff0f6;
+  border-color: #009fb6;
+  color: #466539;
+  border-radius: 10px;
+  /* border-bottom: 1px solid #010202; */
+  text-transform: none;
+  font-weight: 500;
+  transition: background-color 300ms ease-out;
+}
+.vidButton {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "museo-sans-fontspring", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  margin-left: 8vw;
+
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #eff0f6;
+  border-color: #009fb6;
+  color: #466539;
+  border-radius: 10px;
+  /* border-bottom: 1px solid #010202; */
+  text-transform: none;
+  font-weight: 500;
+  transition: background-color 300ms ease-out;
+}
+.fileButton {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "museo-sans-fontspring", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  margin-left: 0vw;
+
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #eff0f6;
+  border-color: #009fb6;
+  color: #466539;
+  border-radius: 10px;
+  /* border-bottom: 1px solid #010202; */
+  text-transform: none;
+  font-weight: 500;
+  transition: background-color 300ms ease-out;
+}
+#upload-input {
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+}
+.line {
+  height: 2px;
+  border-width: 0;
+  color: #858585;
+  background-color: #858585;
+  width: 80vw;
+  margin-left: -3vw;
+}
+
+.bform {
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(160, 163, 189, 0.1);
+  border-radius: 10px;
+  margin-top: 21px;
+}
+
+.cform {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 328px;
+}
+
+.loginPosition {
+  width: 80vw;
+  height: 260vh;
+  margin-left: 5vw;
+}
+
+.tacbox {
+  display: flex;
+  padding: 1em;
+  border-radius: 10px;
+  /* border: 3px solid #ddd; */
+  background-color: #eff0f6;
+  width: 23vw;
+}
+
+input {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input1 {
+  width: 20vw;
+  height: 30px;
+}
+.submitBtn {
+  margin-left: 55vw;
+  border-radius: 20px;
+}
+.navBar {
+  width: 150vw;
+  margin-left: 24px;
+}
+
+@media (max-width: 629px) {
+  .cform {
+    margin-left: 1.75vh;
+    width: 40vh;
+    height: 41vh;
+  }
+  .bform {
+    margin-left: 0vh;
+    width: 100%;
+    height: 230vh;
+  }
+  .line {
+    width: 99vw;
+  }
+  .tacbox {
+    width: 90vw;
+  }
+  .loginput {
+    width: 90vw;
+  }
+  .submitBtn {
+    margin-left: 2vw;
+    border-radius: 20px;
+  }
+  .navBar {
+    display: none;
+  }
+  .imgButton {
+    margin-top: 10vw;
+    margin-left: 3vw;
+  }
+  .vidButton {
+    margin-left: 3vw;
+  }
+  .fileButton {
+    margin-left: 3vw;
+  }
+}
