@@ -64,11 +64,10 @@ body {
   padding: 5px 16px;
   background: #eff0f6;
   border-radius: 6px;
-  width: 950px;
+  width: 65vw;
   height: 52px;
 }
 .table {
-  /* display: flex; */
   padding: 5px 16px;
   background: #466539;
   color: white;
@@ -178,7 +177,7 @@ body {
   border-width: 0;
   color: #858585;
   background-color: #858585;
-  width: 80vw;
+  width: 70vw;
   margin-left: -3vw;
 }
 
@@ -187,6 +186,7 @@ body {
   box-shadow: 0px 5px 10px rgba(160, 163, 189, 0.1);
   border-radius: 10px;
   margin-top: 21px;
+  /* width: 10vw; */
 }
 
 .cform {
@@ -196,7 +196,7 @@ body {
 }
 
 .loginPosition {
-  width: 80vw;
+  width: 70vw;
   height: 260vh;
   margin-left: 5vw;
 }
@@ -229,7 +229,7 @@ input {
   height: 30px;
 }
 .submitBtn {
-  margin-left: 55vw;
+  margin-left: 47vw;
   border-radius: 20px;
 }
 .navBar {
@@ -241,6 +241,44 @@ input {
   .cform {
     margin-left: 1.75vh;
     width: 40vh;
+    height: 41vh;
+  }
+  .bform {
+    margin-left: 0vh;
+    width: 100%;
+    height: 230vh;
+  }
+  .line {
+    width: 99vw;
+  }
+  .tacbox {
+    width: 90vw;
+  }
+  .loginput {
+    width: 90vw;
+  }
+  .submitBtn {
+    margin-left: 2vw;
+    border-radius: 20px;
+  }
+  .navBar {
+    display: none;
+  }
+  .imgButton {
+    margin-top: 10vw;
+    margin-left: 3vw;
+  }
+  .vidButton {
+    margin-left: 3vw;
+  }
+  .fileButton {
+    margin-left: 3vw;
+  }
+}
+@media (max-width: 771px) {
+  .cform {
+    margin-left: 1.75vh;
+    width: 30vh;
     height: 41vh;
   }
   .bform {

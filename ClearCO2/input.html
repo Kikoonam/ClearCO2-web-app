@@ -90,31 +90,38 @@
 
         <!-- Page Content  -->
         <div id="content">
-            <!--Navbar-->
-            <!--search bar-->
-            <nav class="navbar navbar-expand-lg navbar-white bg-white border-bottom" style="height: 64px;">
-                <form class="navBar form-inline ">
-                    <input class="navBar form-control mr-sm-2 rounded-0 border-white" type="" placeholder=Search
-                        aria-label="Search">
-                </form>
-
-                <!--account section-->
-                <div class="container" style=" margin-right: 24px;">
-                    <a>
-                        <!--Account icon-->
-                        <span><i class="bi bi-people-fill "></i></span>
-                    </a>
-                    <!--Notification icon-->
-                    <a>
-                        <span style="margin-left: 16px;"><i class="bi bi-bell-fill"></i></span>
-                    </a>
-                    <!--user image-->
-                    <a>
-                        <img class="rounded-circle " style="height: 40px;"
-                            src="Images/default-profile-pic-150x150.jpeg" />
-
-                    </a>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
                 </div>
+            </div>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom shadow-sm ">
+                <div class="container-fluid container-sm container-md  d-flex  my-2 my-lg-2  mx-2 align-items-center">
+                    <div class="d-flex">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <form class="pl-1 ">
+                            <input class="form-control me-sm-2 border-0 p-2 bg-light  " type="text" id="search"
+                                width="40px">
+                        </form>
+                    </div>
+
+                    <div class="  flex-row ">
+                        <a class=" px-2"><i class="bi bi-people-fill"></i></a>
+                        <a class=" px-2"><i class="bi bi-bell-fill"></i></a>
+                        <a class="px-3"> <img class="img-fluid rounded-circle " width="24px" height="24px"
+                                src="./Images/default-profile-pic-150x150.jpeg" alt=""></a>
+
+                    </div>
+
+                </div>
+
+
 
             </nav>
             <!--end of navbar-->
@@ -133,7 +140,8 @@
                             <label for="email" class="loginLabel"> Product name </label>
                         </div>
                         <input type="text" placeholder="Enter your the product name" class="form-control loginput"
-                            id="productName" aria-describedby="aideUserName" />
+                            class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1 " id="productName"
+                            aria-describedby="aideUserName" />
                         <div class="form-group mb-2">
                             <label for="email" class="loginLabel"> Product category </label>
                         </div>
