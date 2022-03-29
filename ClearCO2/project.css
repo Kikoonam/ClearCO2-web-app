@@ -1,0 +1,28 @@
+.title {
+  margin-left: 40px;
+  font-size: 1.5em;
+  align-items: center;
+}
+.submitBtn {
+  margin-left: 60vw;
+  border-radius: 20px;
+  width: 10vw;
+  margin-top: 5px;
+}
+.image {
+  width: 430px;
+  height: 218px;
+  vertical-align: bottom;
+}
+.container {
+  display: flex;
+  width: 10vw;
+}
+.container2 {
+  display: block;
+  width: 20vw;
+}
+.text {
+  margin-left: 2.5vw;
+  width: 50vw;
+}
