@@ -10,9 +10,6 @@
   margin-top: 5px;
 }
 .image {
-  width: 245px;
-  height: 115px;
-  vertical-align: bottom;
 }
 .container {
   display: flex;
@@ -30,7 +27,7 @@
 }
 .text {
   margin-left: 2.5vw;
-  width: 50vw;
+  width: 55vw;
 }
 .text2 {
   margin-left: 2.5vw;
@@ -61,22 +58,9 @@
   }
   .text {
     margin-left: 2.5vw;
-    width: 50vw;
-  }
-  .submitBtn {
-    margin-left: 100vw;
-    border-radius: 20px;
-    width: 35vw;
-    margin-top: 5px;
+    width: 80vw;
   }
   .image {
-    width: 430px;
-    height: 218px;
-    vertical-align: bottom;
-    margin-left: -48vw;
-  }
-  .text {
-    margin-left: 2.5vw;
-    width: 100vw;
+    margin-left: 10vw;
   }
 }
