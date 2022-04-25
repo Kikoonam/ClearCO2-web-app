@@ -10,19 +10,19 @@
   margin-top: 5px;
 }
 .image {
-  width: 430px;
-  height: 218px;
-  vertical-align: bottom;
-}
-.container {
-  display: flex;
-  width: 10vw;
+  /* width: 430px;
+  height: 218px; */
+  /* vertical-align: bottom; */
 }
 .container2 {
   display: block;
   width: 20vw;
 }
 .text {
+  margin-left: 2.5vw;
+  width: 50vw;
+}
+.text1 {
   margin-left: 2.5vw;
   width: 50vw;
 }
@@ -35,7 +35,11 @@
   }
   .text {
     margin-left: 2.5vw;
-    width: 50vw;
+    width: 85vw;
+  }
+  .text1 {
+    margin-left: 2.5vw;
+    width: 85vw;
   }
   .submitBtn {
     margin-left: 100vw;
@@ -43,14 +47,10 @@
     width: 35vw;
     margin-top: 5px;
   }
+
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 575px) {
   .image {
-    width: 430px;
-    height: 218px;
-    vertical-align: bottom;
-    margin-left: -48vw;
-  }
-  .text {
-    margin-left: 2.5vw;
-    width: 100vw;
+    margin-left: 10vw;
   }
 }
