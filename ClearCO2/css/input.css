@@ -262,6 +262,8 @@ input {
   .submitBtn {
     margin-left: 2vw;
     border-radius: 20px;
+    margin-top: 4vw;
+    width: 90vw;
   }
   .navBar {
     display: none;
@@ -291,7 +293,7 @@ input {
   .bform {
     margin-left: 0vh;
     width: 100%;
-    height: 280vh;
+    height: 240vh;
   }
   .line {
     width: 100vw;
@@ -305,6 +307,8 @@ input {
   .submitBtn {
     margin-left: 2vw;
     border-radius: 20px;
+    margin-top: 5vw;
+    width: 90vw;
   }
   .navBar {
     display: none;
@@ -335,7 +339,7 @@ input {
     width: 50vw;
   }
   .loginPosition {
-    height: 150vh;
+    height: 223vh;
   }
   .submitBtn {
     margin-left: 52vw;
