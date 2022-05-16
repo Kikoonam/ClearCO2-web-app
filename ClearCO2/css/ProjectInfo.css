@@ -57,10 +57,13 @@
     width: 170px;
   }
   .text {
-    margin-left: 2.5vw;
-    width: 80vw;
+    margin-left: 60px;
+    width: 70vw;
   }
   .image {
     margin-left: 10vw;
+  }
+  .loginLib2 {
+    margin-left: 60px;
   }
 }
