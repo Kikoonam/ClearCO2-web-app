@@ -49,6 +49,22 @@
   margin-left: 2.5vw;
   margin-top: 3vh;
 }
+.loginLib3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  /* Title */
+
+  color: #171717;
+  margin-left: 2.5vw;
+  margin-top: 3vh;
+}
 @media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
   .title {
     margin-left: 40px;
@@ -64,6 +80,9 @@
     margin-left: 10vw;
   }
   .loginLib2 {
+    margin-left: 60px;
+  }
+  .loginLib3 {
     margin-left: 60px;
   }
 }
