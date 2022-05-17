@@ -35,7 +35,9 @@ a:focus {
   border-bottom: 1px dashed #ddd;
   margin: 40px 0;
 }
-
+.navbarLeftSm {
+  /* margin-left: 200px; */
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -117,5 +119,8 @@ a:focus {
   }
   #sidebarCollapse span {
     display: none;
+  }
+  .navbarLeftSm {
+    margin-left: 195px;
   }
 }
