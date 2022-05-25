@@ -68,6 +68,16 @@
   margin-left: 2.5vw;
   margin-top: 3vh;
 }
+.hideSearchBar {
+  /* display: none; */
+  height: 38px;
+  width: 80%;
+}
+.hideSearchBar1 {
+}
+.hideSearchBar2 {
+  display: none;
+}
 @media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
   .title {
     margin-left: 40px;
@@ -98,5 +108,16 @@
   }
   .loginLib3 {
     margin-left: 60px;
+  }
+  .hideSearchBar {
+    display: none;
+  }
+  .hideSearchBar1 {
+    display: none;
+  }
+  .hideSearchBar2 {
+    display: block;
+    /* height: 38px; */
+    /* width: 80%; */
   }
 }

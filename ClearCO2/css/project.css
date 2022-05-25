@@ -26,6 +26,11 @@
   margin-left: 2.5vw;
   width: 50vw;
 }
+.hideSearchBar {
+  /* display: none; */
+  height:38px;
+  width: 80%;
+}
 @media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
   .title {
     margin-left: 40px;
@@ -47,10 +52,15 @@
     width: 35vw;
     margin-top: 5px;
   }
-
+  .hideSearchBar {
+    display: none;
+  }
 }
 @media only screen and (min-device-width: 0px) and (max-device-width: 575px) {
   .image {
     margin-left: 10vw;
+  }
+  .hideSearchBar {
+    display: none;
   }
 }
